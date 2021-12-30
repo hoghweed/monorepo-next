@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "commit": "git-cz",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
